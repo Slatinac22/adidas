@@ -9,10 +9,10 @@ a{
   color: white;
 }
 
-a {}
+
 
 a:hover{
-  color: darkgrey;
+  color: gray;
   border-bottom: 2px solid black;
 }
 
@@ -61,14 +61,28 @@ nav ul li{
     margin:0px 20px;
 }
 
+nav img{
+  height: 100px;
+
+}
+
+h2{
+  color:black;
+  backdrop-filter: blur(10px) saturate(70%);
+}
+p{
+  backdrop-filter: blur(10px) saturate(70%);
+
+}
+
 .hero-muškarci{
-  background-image: url("p-muškarci.jpg"); 
+  background-image: url("p-muskarci.jpg"); 
   background-color: white;
   background-size: cover;
   background-position: top;
-   height: 80vh;
+  height: 80vh;
  
- 
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +91,7 @@ nav ul li{
  }
 .hero-žene{
   
-  background-image: url("p-žene.jpg"); 
+  background-image: url("p-zene.jpg"); 
   background-color: white;
   background-size: cover;
   background-position: top;
@@ -92,7 +106,8 @@ nav ul li{
  }
 
 .hero-deca{
-  background-image: url("p-deca.jpg"); 
+  background-image: url("p-deca1.jpg"); 
+  
   background-color: white;
   background-size: cover;
   background-position: top;
@@ -136,6 +151,7 @@ nav ul li{
     margin-bottom: 3px;
     width: 75px;
     height: auto;
+    
   }
 
   nav>ul>li {
@@ -185,7 +201,7 @@ nav ul li{
 
 .hero {
     background-color: white;
-    background-image: url("adidas.jpg");
+    background-image: url("under_armour.jpg");
     background-size: cover;
     background-position: top;
     min-height: 100%;
@@ -194,9 +210,17 @@ nav ul li{
     justify-content: center;
     align-items: center;
   }
+
+  .hero h2{
+    color: white;
+  }
+
+  .hero p{
+    color: white;
+  }
   
 .text {
-    color: gray;
+    color: black;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
